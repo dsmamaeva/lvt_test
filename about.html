@@ -1,0 +1,747 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Производитель промышленных и высокотемпературных печей в Санкт-Петербурге | ЛВТ | Лаборатория высоких температур</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <meta name="description" content="Производитель промышленных и высокотемпературных печей в СПб. Экспертиза, проектирование, сервис, гарантия. ☎ +7(962)688‑99‑66" />
+    <meta name="keywords" content="ЛВТ, Лаборатория высоких температур, промышленные печи, лабораторные печи, высокотемпературные печи, туннельные печи, производство печей, сервис печей, высокотемпературная печь купить, муфельная печь высокотемпературная, лабораторная печь купить, промышленная печь высокой температуры, электропечь высокотемпературная цена, высокотемпературная печь, купить высокотемпературные печь, печь для высокотемпературного спекания, высокотемпературная лабораторная печь, высокотемпературная муфельная печь, печь высокотемпературная типа снол 12, высокотемпературные графитовые печи" />
+    
+    <!-- Скрипт иконок Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <style>
+        /* 
+           === ПОДКЛЮЧЕНИЕ ЛОКАЛЬНЫХ ШРИФТОВ ===
+        */
+
+        /* 1. Шрифт для заголовков: Bebas Neue Cyrillic */
+        @font-face {
+            font-family: 'Bebas Neue Cyrillic';
+            src: url('fonts/BebasNeueCyrillic.ttf') format('truetype'),
+                url('fonts/BebasNeueCyrillic.woff2') format('woff2'),
+                 url('fonts/BebasNeueCyrillic.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        /* 2. Основной текст: Inter */
+        @font-face {
+            font-family: 'Inter';
+            src: url('fonts/Inter.ttf') format('truetype'),
+                url('fonts/Inter.woff2') format('woff2'),
+                 url('fonts/Inter.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Inter';
+            src: url('fonts/Inter.ttf') format('truetype'),
+                url('fonts/Inter.woff2') format('woff2'),
+                 url('fonts/Inter.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #2a2e3a; 
+            color: #ffffff; 
+        }
+        
+        .font-display { 
+            font-family: 'Bebas Neue Cyrillic', 'Bebas Neue', sans-serif; 
+        }
+        
+        .font-script { 
+            font-family: 'Scandilover Script', cursive; 
+        }
+        
+        /* Smooth scrolling for carousel */
+        .carousel-track {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden flex flex-col min-h-screen">
+
+    <!-- Header -->
+    <header class="w-full bg-black/90 text-white sticky top-0 z-50 border-b border-gray-800 relative">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="flex flex-col items-center gap-1.5 group">
+                        <img src="Img/logo_lvt.png" alt="ЛВТ логотип" class="h-9 md:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+                        <span class="font-display text-[10px] md:text-[11px] leading-none text-gray-400 uppercase tracking-widest group-hover:text-white transition-colors duration-300">Промышленные печи</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Nav -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <!-- Catalog Button (Toggles Dropdown) -->
+                        <button id="catalog-btn" class="font-display text-xl tracking-wider text-white hover:text-gray-300 px-3 py-2 rounded-md transition-colors flex items-center gap-2">
+                            Каталог
+                        </button>
+                        
+                        <!-- Solutions Button (Toggles Dropdown) -->
+                        <button id="solutions-btn" class="font-display text-xl tracking-wider text-white hover:text-gray-300 px-3 py-2 rounded-md transition-colors flex items-center gap-2">
+                            Решения
+                        </button>
+
+                        <a href="servis.html" class="font-display text-xl tracking-wider hover:text-gray-300 transition-colors px-3 py-2 rounded-md">Сервис</a>
+                        <a href="about.html" class="font-display text-xl tracking-wider text-[#6B809B] px-3 py-2 rounded-md transition-colors">О нас</a>
+                        <a href="contacts.html" class="font-display text-xl tracking-wider hover:text-gray-300 transition-colors px-3 py-2 rounded-md">Контакты</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="-mr-2 flex md:hidden">
+                    <button id="mobile-menu-btn" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none">
+                        <span class="sr-only">Open main menu</span>
+                        <i id="icon-menu" data-lucide="menu" class="w-6 h-6"></i>
+                        <i id="icon-close" data-lucide="x" class="hidden w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catalog Dropdown (Overlay) -->
+        <div id="catalog-dropdown" class="hidden absolute top-full left-0 w-full bg-black border-b border-gray-700 shadow-2xl z-40">
+            <div class="container mx-auto px-4 py-8">
+                <!-- Flex container for Menu Items (Left) and Content Panel (Right) -->
+                <div class="flex flex-col md:flex-row gap-8 lg:gap-16">
+                    
+                    <!-- Left: Menu Items -->
+                    <div class="flex flex-col items-start gap-4 shrink-0" id="catalog-menu-items">
+                         <!-- Item 1: Лабораторные печи -->
+                        <a href="lab.html" id="menu-item-lab" class="catalog-menu-link group w-full md:w-[300px] h-[80px] bg-[#2a2e3a] border border-gray-700 hover:border-gray-500 flex items-center justify-between px-6 rounded hover:bg-[#3b4050] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
+                            <span class="font-display text-2xl text-white tracking-wide">Лабораторные печи</span>
+                            <div class="text-gray-400 group-hover:text-white transition-colors duration-300">
+                                <i data-lucide="chevron-right" class="w-6 h-6"></i>
+                            </div>
+                        </a>
+
+                        <!-- Item 2: Промышленные печи -->
+                        <a href="prom.html" id="menu-item-ind" class="catalog-menu-link group w-full md:w-[300px] h-[80px] bg-[#2a2e3a] border border-gray-700 hover:border-gray-500 flex items-center justify-between px-6 rounded hover:bg-[#3b4050] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
+                            <span class="font-display text-2xl text-white tracking-wide">Промышленные печи</span>
+                            <div class="text-gray-400 group-hover:text-white transition-colors duration-300">
+                                <i data-lucide="chevron-right" class="w-6 h-6"></i>
+                            </div>
+                        </a>
+
+                        <!-- Item 3: Туннельные печи -->
+                        <a href="tunn.html" id="menu-item-tun" class="catalog-menu-link group w-full md:w-[300px] h-[80px] bg-[#2a2e3a] border border-gray-700 hover:border-gray-500 flex items-center justify-between px-6 rounded hover:bg-[#3b4050] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
+                            <span class="font-display text-2xl text-white tracking-wide">Туннельные печи</span>
+                            <div class="text-gray-400 group-hover:text-white transition-colors duration-300">
+                                <i data-lucide="chevron-right" class="w-6 h-6"></i>
+                            </div>
+                        </a>
+
+                        <!-- Item 4: Высокотемпературные печи -->
+                        <a href="vtemp.html" id="menu-item-high" class="catalog-menu-link group w-full md:w-[300px] h-[80px] bg-[#2a2e3a] border border-gray-700 hover:border-gray-500 flex items-center justify-between px-6 rounded hover:bg-[#3b4050] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
+                            <span class="font-display text-2xl text-white tracking-wide">Высокотемпературные печи</span>
+                            <div class="text-gray-400 group-hover:text-white transition-colors duration-300">
+                                <i data-lucide="chevron-right" class="w-6 h-6"></i>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Right: Content Details (Initially hidden, shown on interaction) -->
+                    <div id="catalog-details" class="flex-grow hidden md:block relative min-h-[350px]">
+                        
+                        <!-- Laboratory Ovens Details -->
+                        <div id="details-lab" class="details-content hidden absolute inset-0 w-full h-full flex flex-col lg:flex-row items-center gap-8 animate-fade-in">
+                            <!-- Image -->
+                            <div class="w-full lg:w-1/2 flex justify-center">
+                                <img src="Img/imglab.png" alt="Лабораторные печи" class="max-w-full h-auto max-h-[300px] object-contain">
+                            </div>
+                            <!-- Text Content -->
+                            <div class="w-full lg:w-1/2 flex flex-col gap-6 text-left">
+                                <p class="text-gray-300 text-lg leading-relaxed">
+                                    Линейка настольных печей с объемом рабочего пространства от 3 до 100 литров. Широкий набор опций позволяет использовать печь для процессов с удалением летучих веществ, купелирования, закалки, отжига и нормализации.
+                                </p>
+                                <a href="lab.html" class="inline-block text-center bg-[#6B809B] hover:bg-[#5a6e87] text-white font-display text-xl uppercase tracking-wider py-4 px-8 rounded transition-colors w-full lg:w-auto shadow-lg">
+                                    Перейти в раздел
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Industrial Ovens Details -->
+                        <div id="details-ind" class="details-content hidden absolute inset-0 w-full h-full flex flex-col lg:flex-row items-center gap-8 animate-fade-in">
+                            <!-- Image -->
+                            <div class="w-full lg:w-1/2 flex justify-center">
+                                <img src="Img/imgprom.png" alt="Промышленные печи" class="max-w-full h-auto max-h-[300px] object-contain">
+                            </div>
+                            <!-- Text Content -->
+                            <div class="w-full lg:w-1/2 flex flex-col gap-6 text-left">
+                                <p class="text-gray-300 text-lg leading-relaxed">
+                                    Предназначены для использования в различных отраслях промышленности, включая крупное серийное производство, лаборатории и гончарные мастерские.
+                                </p>
+                                <a href="prom.html" class="inline-block text-center bg-[#6B809B] hover:bg-[#5a6e87] text-white font-display text-xl uppercase tracking-wider py-4 px-8 rounded transition-colors w-full lg:w-auto shadow-lg">
+                                    Перейти в раздел
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Tunnel Ovens Details -->
+                        <div id="details-tun" class="details-content hidden absolute inset-0 w-full h-full flex flex-col lg:flex-row items-center gap-8 animate-fade-in">
+                            <!-- Image -->
+                            <div class="w-full lg:w-1/2 flex justify-center">
+                                <img src="Img/imgtunn.png" alt="Туннельные печи" class="max-w-full h-auto max-h-[300px] object-contain">
+                            </div>
+                            <!-- Text Content -->
+                            <div class="w-full lg:w-1/2 flex flex-col gap-6 text-left">
+                                <p class="text-gray-300 text-lg leading-relaxed">
+                                    Многозонные проходные печи с электрическим обогревом применяются в производственных линиях, где требуется непрерывность процесса обжига в течении длительного времени.
+                                </p>
+                                <a href="tunn.html" class="inline-block text-center bg-[#6B809B] hover:bg-[#5a6e87] text-white font-display text-xl uppercase tracking-wider py-4 px-8 rounded transition-colors w-full lg:w-auto shadow-lg">
+                                    Перейти в раздел
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- High Temp Ovens Details -->
+                        <div id="details-high" class="details-content hidden absolute inset-0 w-full h-full flex flex-col lg:flex-row items-center gap-8 animate-fade-in">
+                            <!-- Image -->
+                            <div class="w-full lg:w-1/2 flex justify-center">
+                                <img src="Img/imgvtemp.png" alt="Высокотемпературные печи" class="max-w-full h-auto max-h-[300px] object-contain">
+                            </div>
+                            <!-- Text Content -->
+                            <div class="w-full lg:w-1/2 flex flex-col gap-6 text-left">
+                                <p class="text-gray-300 text-lg leading-relaxed">
+                                    Серия напольных высокотемпературных печей с рабочим объемом камеры от 16 до 276 литров и температурами до 1800°C.
+                                </p>
+                                <a href="vtemp.html" class="inline-block text-center bg-[#6B809B] hover:bg-[#5a6e87] text-white font-display text-xl uppercase tracking-wider py-4 px-8 rounded transition-colors w-full lg:w-auto shadow-lg">
+                                    Перейти в раздел
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Solutions Dropdown (Overlay) -->
+        <div id="solutions-dropdown" class="hidden absolute top-full left-0 w-full bg-black border-b border-gray-700 shadow-2xl z-40">
+            <div class="container mx-auto px-4 py-8">
+                <div class="flex flex-col md:flex-row gap-8 lg:gap-16">
+                    
+                    <!-- Left: Menu Items -->
+                    <div class="flex flex-col items-start gap-4 shrink-0" id="solutions-menu-items">
+                        <a href="komb.html" id="sol-item-combo" class="catalog-menu-link group w-full md:w-[400px] h-[80px] bg-[#2a2e3a] border border-gray-700 hover:border-gray-500 flex items-center justify-between px-6 rounded hover:bg-[#3b4050] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
+                            <span class="font-display text-lg md:text-xl text-white tracking-wide uppercase">Комбинированные камерные печи</span>
+                            <div class="text-gray-400 group-hover:text-white transition-colors duration-300">
+                                <i data-lucide="chevron-right" class="w-6 h-6"></i>
+                            </div>
+                        </a>
+                        <a href="bit.html" id="sol-item-bitumen" class="catalog-menu-link group w-full md:w-[400px] h-[80px] bg-[#2a2e3a] border border-gray-700 hover:border-gray-500 flex items-center justify-between px-6 rounded hover:bg-[#3b4050] transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
+                            <span class="font-display text-lg md:text-xl text-white tracking-wide uppercase">Печи выжигания битума</span>
+                            <div class="text-gray-400 group-hover:text-white transition-colors duration-300">
+                                <i data-lucide="chevron-right" class="w-6 h-6"></i>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Right: Content Details (Initially hidden) -->
+                    <div id="solutions-details" class="flex-grow hidden md:block relative min-h-[350px]">
+                        <!-- Combined Chamber Furnaces Details -->
+                        <div id="details-sol-combo" class="details-sol-content hidden absolute inset-0 w-full h-full flex flex-col lg:flex-row items-center gap-8 animate-fade-in">
+                            <!-- Image -->
+                            <div class="w-full lg:w-1/2 flex justify-center">
+                                <img src="Img/imgkomb.png" alt="Комбинированные камерные печи" class="max-w-full h-auto max-h-[300px] object-contain">
+                            </div>
+                            <!-- Text Content -->
+                            <div class="w-full lg:w-1/2 flex flex-col gap-6 text-left">
+                                <p class="text-gray-300 text-lg leading-relaxed">
+                                   Специальное исполнение камерной печи для совмещения процессов сушки и обжига за один цикл.
+                                </p>
+                                <a href="komb.html" class="inline-block text-center bg-[#6B809B] hover:bg-[#5a6e87] text-white font-display text-xl uppercase tracking-wider py-4 px-8 rounded transition-colors w-full lg:w-auto shadow-lg">
+                                   Перейти в раздел
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Bitumen Burnout Furnaces Details -->
+                        <div id="details-sol-bitumen" class="details-sol-content hidden absolute inset-0 w-full h-full flex flex-col lg:flex-row items-center gap-8 animate-fade-in">
+                            <!-- Image -->
+                            <div class="w-full lg:w-1/2 flex justify-center">
+                                <img src="Img/imgbit.png" alt="Печи выжигания битума" class="max-w-full h-auto max-h-[300px] object-contain">
+                            </div>
+                            <!-- Text Content -->
+                            <div class="w-full lg:w-1/2 flex flex-col gap-6 text-left">
+                                <p class="text-gray-300 text-lg leading-relaxed">
+                                   Печь предназначена для определения содержания битума в асфальтобетоне методом выжигания. Оснащена термостойким корпусом, нагревательной камерой с системой удаления продуктов горения, встроенными весами и сенсорным контроллером для автоматического контроля температуры и массы.
+                                </p>
+                                <a href="bit.html" class="inline-block text-center bg-[#6B809B] hover:bg-[#5a6e87] text-white font-display text-xl uppercase tracking-wider py-4 px-8 rounded transition-colors w-full lg:w-auto shadow-lg">
+                                   Перейти в раздел
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-gray-800">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <button id="mobile-catalog-btn" class="w-full text-left text-white bg-gray-900 block px-3 py-2 rounded-md text-xl font-display tracking-wider flex justify-between items-center">
+                    Каталог
+                    <i data-lucide="chevron-down" class="w-5 h-5"></i>
+                </button>
+                <!-- Mobile Catalog Submenu -->
+                <div id="mobile-catalog-submenu" class="hidden pl-4 space-y-2 py-2 bg-gray-900/50 rounded-md mt-1">
+                     <a href="lab.html" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-display">Лабораторные печи</a>
+                     <a href="prom.html" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-display">Промышленные печи</a>
+                     <a href="tunn.html" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-display">Туннельные печи</a>
+                     <a href="vtemp.html" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-display">Высокотемпературные печи</a>
+                </div>
+
+                <!-- Mobile Solutions (Now a Dropdown) -->
+                <button id="mobile-solutions-btn" class="w-full text-left text-white bg-gray-900 block px-3 py-2 rounded-md text-xl font-display tracking-wider flex justify-between items-center">
+                    Решения
+                    <i data-lucide="chevron-down" class="w-5 h-5"></i>
+                </button>
+                <!-- Mobile Solutions Submenu -->
+                <div id="mobile-solutions-submenu" class="hidden pl-4 space-y-2 py-2 bg-gray-900/50 rounded-md mt-1">
+                     <a href="komb.html" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-display">Комбинированные камерные печи</a>
+                     <a href="bit.html" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-display">Печи выжигания битума</a>
+                </div>
+
+                <a href="servis.html" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-xl font-display tracking-wider">Сервис</a>
+                <a href="about.html" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-xl font-display tracking-wider">О нас</a>
+                <a href="contacts.html" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-xl font-display tracking-wider">Контакты</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="flex-grow bg-[#2a2e3a] pb-20">
+        <div class="container mx-auto px-4 pt-6">
+            
+             <!-- Breadcrumbs -->
+            <nav class="flex items-center gap-2 text-sm text-gray-400 mb-10 font-display tracking-wider uppercase">
+                <a href="index.html" class="hover:text-white transition-colors">Главная</a>
+                <span>–</span>
+                <span class="text-white border-b border-white">О нас</span>
+            </nav>
+            
+            <h1 class="font-display text-2xl md:text-4xl lg:text-5xl uppercase text-white mb-16 leading-[1.2] tracking-wide max-w-5xl relative">
+                Производитель высокотемпературных <span class="text-gray-400">промышленных и лабораторных печей</span> полного цикла в Санкт‑Петербурге
+                <div class="h-1 w-24 bg-[#6B809B] mt-8"></div>
+            </h1>
+            
+            <div class="flex flex-col xl:flex-row gap-16 items-start">
+                
+                <!-- Left: Features List with Icons -->
+                <div class="w-full xl:w-1/2 flex flex-col gap-10">
+                    
+                    <!-- Block 1 -->
+                    <div class="flex gap-6 items-start group">
+                         <div class="shrink-0 w-14 h-14 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-[#6B809B] group-hover:bg-[#6B809B]/20 transition-all duration-300">
+                             <i data-lucide="factory" class="w-7 h-7 text-gray-300 group-hover:text-white transition-colors"></i>
+                         </div>
+                         <div>
+                            <h2 class="font-display text-2xl uppercase text-white mb-3 tracking-wide group-hover:text-[#6B809B] transition-colors">ОСНОВНАЯ СПЕЦИАЛИЗАЦИЯ</h2>
+                            <p class="text-gray-400 text-base leading-relaxed font-light">
+                                Российский производитель термического оборудования, специализирующийся на разработке и выпуске высокотехнологичных систем для промышленных и лабораторных нужд.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Block 2 -->
+                    <div class="flex gap-6 items-start group">
+                         <div class="shrink-0 w-14 h-14 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-[#6B809B] group-hover:bg-[#6B809B]/20 transition-all duration-300">
+                             <i data-lucide="award" class="w-7 h-7 text-gray-300 group-hover:text-white transition-colors"></i>
+                         </div>
+                         <div>
+                            <h2 class="font-display text-2xl uppercase text-white mb-3 tracking-wide group-hover:text-[#6B809B] transition-colors">ОПЫТ И ПОЛНЫЙ ЦИКЛ</h2>
+                            <p class="text-gray-400 text-base leading-relaxed font-light">
+                                Уже восемь лет мы проектируем, изготавливаем и обслуживаем промышленные высокотемпературные печи с рабочим диапазоном температур до 1800°С, обеспечивая полный цикл — от конструкторской разработки до сервисного сопровождения оборудования.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Block 3 -->
+                    <div class="flex gap-6 items-start group">
+                         <div class="shrink-0 w-14 h-14 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-[#6B809B] group-hover:bg-[#6B809B]/20 transition-all duration-300">
+                             <i data-lucide="pencil-ruler" class="w-7 h-7 text-gray-300 group-hover:text-white transition-colors"></i>
+                         </div>
+                         <div>
+                            <h2 class="font-display text-2xl uppercase text-white mb-3 tracking-wide group-hover:text-[#6B809B] transition-colors">ИНДИВИДУАЛЬНЫЙ ПОДХОД</h2>
+                            <p class="text-gray-400 text-base leading-relaxed font-light">
+                                Помимо стандартных решений, компания разрабатывает индивидуальные проекты, точно соответствующие технологическим задачам каждого клиента.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Photo Carousel -->
+                <div class="w-full xl:w-1/2">
+                    <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-black border border-white/5 group">
+                         <!-- Slides Track -->
+                         <div id="carousel-track" class="absolute inset-0 flex transition-transform duration-700 ease-in-out h-full">
+                             <!-- Slide 1 -->
+                             <div class="min-w-full h-full relative">
+                                 <img src="Img/aboutpic.png" class="w-full h-full object-cover opacity-80" alt="Производство ЛВТ">
+                                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                                 <div class="absolute bottom-10 left-10 text-white">
+                                     <span class="uppercase tracking-widest text-sm text-[#6B809B] mb-2 block font-display">Производство</span>
+                                     <h3 class="font-display text-4xl">Собственный цех</h3>
+                                 </div>
+                             </div>
+                             <!-- Slide 2 -->
+                             <div class="min-w-full h-full relative">
+                                 <img src="Img/prompic1.png" class="w-full h-full object-cover opacity-80" alt="Промышленные печи">
+                                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                                  <div class="absolute bottom-10 left-10 text-white">
+                                     <span class="uppercase tracking-widest text-sm text-[#6B809B] mb-2 block font-display">Продукция</span>
+                                     <h3 class="font-display text-4xl">Промышленные решения</h3>
+                                 </div>
+                             </div>
+                              <!-- Slide 3 -->
+                             <div class="min-w-full h-full relative">
+                                 <img src="Img/labpic2.png" class="w-full h-full object-cover opacity-80" alt="Лабораторные печи">
+                                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                                  <div class="absolute bottom-10 left-10 text-white">
+                                     <span class="uppercase tracking-widest text-sm text-[#6B809B] mb-2 block font-display">Детали</span>
+                                     <h3 class="font-display text-4xl">Высокая точность</h3>
+                                 </div>
+                             </div>
+                         </div>
+                         
+                         <!-- Navigation Arrows -->
+                         <button id="prev-btn" class="absolute top-1/2 left-4 -translate-y-1/2 w-12 h-12 rounded-full bg-black/40 hover:bg-[#6B809B] backdrop-blur-sm flex items-center justify-center text-white transition-all opacity-0 group-hover:opacity-100 transform hover:scale-110 border border-white/10 z-10">
+                            <i data-lucide="chevron-left" class="w-6 h-6"></i>
+                         </button>
+                         <button id="next-btn" class="absolute top-1/2 right-4 -translate-y-1/2 w-12 h-12 rounded-full bg-black/40 hover:bg-[#6B809B] backdrop-blur-sm flex items-center justify-center text-white transition-all opacity-0 group-hover:opacity-100 transform hover:scale-110 border border-white/10 z-10">
+                            <i data-lucide="chevron-right" class="w-6 h-6"></i>
+                         </button>
+        
+                         <!-- Dots -->
+                         <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3 z-10">
+                             <button class="carousel-dot w-2.5 h-2.5 rounded-full bg-white transition-all hover:scale-125 active" data-index="0"></button>
+                             <button class="carousel-dot w-2.5 h-2.5 rounded-full bg-white/30 transition-all hover:scale-125 hover:bg-white/60" data-index="1"></button>
+                             <button class="carousel-dot w-2.5 h-2.5 rounded-full bg-white/30 transition-all hover:scale-125 hover:bg-white/60" data-index="2"></button>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Mobile Menu Toggle Logic
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const iconOpen = document.getElementById('icon-menu');
+        const iconClose = document.getElementById('icon-close');
+        
+        // Desktop Dropdown Logic
+        const catalogBtn = document.getElementById('catalog-btn');
+        const catalogDropdown = document.getElementById('catalog-dropdown');
+        
+        // Solutions Dropdown Logic
+        const solutionsBtn = document.getElementById('solutions-btn');
+        const solutionsDropdown = document.getElementById('solutions-dropdown');
+
+        // Items logic
+        const menuItemLab = document.getElementById('menu-item-lab');
+        const detailsLab = document.getElementById('details-lab');
+        const menuItemInd = document.getElementById('menu-item-ind');
+        const detailsInd = document.getElementById('details-ind');
+        const menuItemTun = document.getElementById('menu-item-tun');
+        const detailsTun = document.getElementById('details-tun');
+        const menuItemHigh = document.getElementById('menu-item-high');
+        const detailsHigh = document.getElementById('details-high');
+
+        if (btn && menu) {
+            btn.addEventListener('click', () => {
+                const isHidden = menu.classList.contains('hidden');
+                if (isHidden) {
+                    menu.classList.remove('hidden');
+                    iconOpen.classList.add('hidden');
+                    iconClose.classList.remove('hidden');
+                } else {
+                    menu.classList.add('hidden');
+                    iconOpen.classList.remove('hidden');
+                    iconClose.classList.add('hidden');
+                }
+            });
+        }
+
+        // Toggle mobile catalog submenu
+        const mobileCatalogBtn = document.getElementById('mobile-catalog-btn');
+        const mobileCatalogSubmenu = document.getElementById('mobile-catalog-submenu');
+        if (mobileCatalogBtn && mobileCatalogSubmenu) {
+            mobileCatalogBtn.addEventListener('click', () => {
+                 mobileCatalogSubmenu.classList.toggle('hidden');
+            });
+        }
+        
+        // Toggle mobile solutions submenu
+        const mobileSolutionsBtn = document.getElementById('mobile-solutions-btn');
+        const mobileSolutionsSubmenu = document.getElementById('mobile-solutions-submenu');
+        if (mobileSolutionsBtn && mobileSolutionsSubmenu) {
+            mobileSolutionsBtn.addEventListener('click', () => {
+                 mobileSolutionsSubmenu.classList.toggle('hidden');
+            });
+        }
+
+        // Catalog Button Logic
+        if (catalogBtn && catalogDropdown) {
+             catalogBtn.addEventListener('click', (e) => {
+                 e.stopPropagation();
+                 
+                 // Close solutions if open
+                 if (solutionsDropdown && !solutionsDropdown.classList.contains('hidden')) {
+                     solutionsDropdown.classList.add('hidden');
+                     if (solutionsBtn) {
+                         solutionsBtn.classList.remove('text-[#6B809B]');
+                         solutionsBtn.classList.add('text-white', 'hover:text-gray-300');
+                     }
+                 }
+
+                 const isHidden = catalogDropdown.classList.contains('hidden');
+                 if (isHidden) {
+                     catalogDropdown.classList.remove('hidden');
+                     // Active state
+                     catalogBtn.classList.remove('text-white', 'hover:text-gray-300');
+                     catalogBtn.classList.add('text-[#6B809B]');
+                 } else {
+                     catalogDropdown.classList.add('hidden');
+                     // Inactive state
+                     catalogBtn.classList.remove('text-[#6B809B]');
+                     catalogBtn.classList.add('text-white', 'hover:text-gray-300');
+                 }
+             });
+        }
+        
+        // Solutions Button Logic
+        if (solutionsBtn && solutionsDropdown) {
+             solutionsBtn.addEventListener('click', (e) => {
+                 e.stopPropagation();
+                 
+                 // Close catalog if open
+                 if (catalogDropdown && !catalogDropdown.classList.contains('hidden')) {
+                     catalogDropdown.classList.add('hidden');
+                     if (catalogBtn) {
+                         catalogBtn.classList.remove('text-[#6B809B]');
+                         catalogBtn.classList.add('text-white', 'hover:text-gray-300');
+                     }
+                 }
+
+                 const isHidden = solutionsDropdown.classList.contains('hidden');
+                 if (isHidden) {
+                     solutionsDropdown.classList.remove('hidden');
+                     // Active state
+                     solutionsBtn.classList.remove('text-white', 'hover:text-gray-300');
+                     solutionsBtn.classList.add('text-[#6B809B]');
+                 } else {
+                     solutionsDropdown.classList.add('hidden');
+                     // Inactive state
+                     solutionsBtn.classList.remove('text-[#6B809B]');
+                     solutionsBtn.classList.add('text-white', 'hover:text-gray-300');
+                 }
+             });
+        }
+
+        // Close dropdowns on click outside
+        document.addEventListener('click', (e) => {
+             // Close catalog
+             if (catalogDropdown && !catalogDropdown.contains(e.target) && catalogBtn && !catalogBtn.contains(e.target)) {
+                 catalogDropdown.classList.add('hidden');
+                 catalogBtn.classList.remove('text-[#6B809B]');
+                 catalogBtn.classList.add('text-white', 'hover:text-gray-300');
+             }
+             // Close solutions
+             if (solutionsDropdown && !solutionsDropdown.contains(e.target) && solutionsBtn && !solutionsBtn.contains(e.target)) {
+                 solutionsDropdown.classList.add('hidden');
+                 solutionsBtn.classList.remove('text-[#6B809B]');
+                 solutionsBtn.classList.add('text-white', 'hover:text-gray-300');
+             }
+        });
+
+        // Helpers to manage details
+        function hideAllDetails() {
+            const details = document.querySelectorAll('.details-content');
+            details.forEach(detail => detail.classList.add('hidden'));
+            
+            const links = document.querySelectorAll('#catalog-menu-items .catalog-menu-link');
+            links.forEach(link => {
+                link.classList.remove('bg-[#3b4050]');
+                link.classList.add('bg-[#2a2e3a]');
+                
+                // Reset icon color
+                const icon = link.querySelector('.text-white');
+                if (icon) {
+                    icon.classList.remove('text-white');
+                    icon.classList.add('text-gray-400');
+                }
+            });
+        }
+
+        function activateMenuLink(link) {
+            link.classList.remove('bg-[#2a2e3a]');
+            link.classList.add('bg-[#3b4050]');
+            
+            const iconDiv = link.querySelector('div');
+            if (iconDiv) {
+                iconDiv.classList.remove('text-gray-400');
+                iconDiv.classList.add('text-white');
+            }
+        }
+
+        // Handle interaction with Laboratory Ovens item
+        if (menuItemLab && detailsLab) {
+            menuItemLab.addEventListener('click', (e) => {
+                e.preventDefault(); 
+                hideAllDetails();
+                detailsLab.classList.remove('hidden');
+                activateMenuLink(menuItemLab);
+            });
+        }
+
+        // Handle interaction with Industrial Ovens item
+        if (menuItemInd && detailsInd) {
+            menuItemInd.addEventListener('click', (e) => {
+                e.preventDefault(); 
+                hideAllDetails();
+                detailsInd.classList.remove('hidden');
+                activateMenuLink(menuItemInd);
+            });
+        }
+
+        // Handle interaction with Tunnel Ovens item
+        if (menuItemTun && detailsTun) {
+            menuItemTun.addEventListener('click', (e) => {
+                e.preventDefault(); 
+                hideAllDetails();
+                detailsTun.classList.remove('hidden');
+                activateMenuLink(menuItemTun);
+            });
+        }
+
+        // Handle interaction with High Temp Ovens item
+        if (menuItemHigh && detailsHigh) {
+            menuItemHigh.addEventListener('click', (e) => {
+                e.preventDefault(); 
+                hideAllDetails();
+                detailsHigh.classList.remove('hidden');
+                activateMenuLink(menuItemHigh);
+            });
+        }
+
+        // Solutions Interaction
+        const solItemCombo = document.getElementById('sol-item-combo');
+        const solItemBitumen = document.getElementById('sol-item-bitumen');
+        const detailsSolCombo = document.getElementById('details-sol-combo');
+        const detailsSolBitumen = document.getElementById('details-sol-bitumen');
+
+        function hideAllSolDetails() {
+            const details = document.querySelectorAll('.details-sol-content');
+            details.forEach(detail => detail.classList.add('hidden'));
+
+            const links = document.querySelectorAll('#solutions-menu-items .catalog-menu-link');
+            links.forEach(link => {
+                 link.classList.remove('bg-[#3b4050]');
+                 link.classList.add('bg-[#2a2e3a]');
+                 const icon = link.querySelector('.text-white');
+                 if (icon) {
+                    icon.classList.remove('text-white');
+                    icon.classList.add('text-gray-400');
+                 }
+            });
+        }
+
+        if (solItemCombo) {
+            solItemCombo.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.location.href = 'komb.html';
+            });
+        }
+        
+        if (solItemBitumen) {
+             solItemBitumen.addEventListener('click', (e) => {
+                 e.preventDefault();
+                 window.location.href = 'bit.html';
+             });
+        }
+
+        // --- CAROUSEL LOGIC ---
+        const track = document.getElementById('carousel-track');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const dots = document.querySelectorAll('.carousel-dot');
+        let currentIndex = 0;
+        const slidesCount = 3; 
+
+        function updateCarousel() {
+            if (!track) return;
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, index) => {
+                if (index === currentIndex) {
+                    dot.classList.remove('bg-white/30', 'hover:bg-white/60');
+                    dot.classList.add('bg-white');
+                } else {
+                    dot.classList.add('bg-white/30', 'hover:bg-white/60');
+                    dot.classList.remove('bg-white');
+                }
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slidesCount;
+            updateCarousel();
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slidesCount) % slidesCount;
+            updateCarousel();
+        }
+
+        if (nextBtn) nextBtn.addEventListener('click', () => {
+            nextSlide();
+            resetInterval();
+        });
+
+        if (prevBtn) prevBtn.addEventListener('click', () => {
+            prevSlide();
+            resetInterval();
+        });
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                updateCarousel();
+                resetInterval();
+            });
+        });
+
+        let interval = setInterval(nextSlide, 5000);
+
+        function resetInterval() {
+            clearInterval(interval);
+            interval = setInterval(nextSlide, 5000);
+        }
+    </script>
+</body>
+</html>
